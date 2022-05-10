@@ -1,0 +1,92 @@
+html,
+body{
+    height: 100%;
+}
+
+body{
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.dados{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.dado1,
+.dado2,
+.dado3,
+.dado4,
+.dado5,
+.dado6{
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 10px;
+  box-sizing: border-box;
+    
+}
+.punto,
+.punto1,
+.punto2,
+.punto3,
+.punto4,
+.punto5{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: black;
+}
+.dado1,
+.dado5d{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contpunto1{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.dado3a{
+    display: flex;
+    justify-content: flex-end;
+}
+.dado3b{
+    display: flex;
+    justify-content: center;
+}
+.dado4b,
+.dado5b,
+.dado6b{
+    display: flex;
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 54px;
+}
+.dado4c,
+.dado5c,
+.dado6e{
+    display: flex;
+    position:absolute;
+    margin-left: 54px;
+    margin-top: 55px;
+}
+.dado6c{
+    display: flex;
+    position: absolute;
+    margin-left: 54px;
+    margin-top: 27px;
+}
